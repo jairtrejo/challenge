@@ -20,9 +20,10 @@ export class FavoriteThings extends React.Component {
     this.setState({newThing: event.target.value});
   }
 
-  addThing(){
+  addThing(event){
     this.props.addThing(this.state.newThing);
     this.setState({newThing: ''});
+    event.preventDefault();
   }
 
   render() {
