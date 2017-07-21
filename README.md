@@ -27,6 +27,12 @@ Everything is tied together using BaconJS. I love being able to combine async
 actions using powerful primitives like `skipDuplicates`, `debounce`, `merge`,
 etc.
 
+For the styling I used Tachyons, it's a great fit for component-based development,
+the idea is you write flat classes that accomplish just one visual thing, and then
+you style your components by combining them. It's... odd to write CSS without
+selectors, just classes, but you end up with your visuals nicely colocated with
+your components, and you can avoid repetition by writing components.
+
 ## Running
 You must have [npm](http://www.npmjs.org) installed. From this directory run:
 
