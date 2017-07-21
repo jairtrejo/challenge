@@ -1,0 +1,26 @@
+button[disabled]{
+    background-color: #eee;
+    border-color: #eee;
+}
+
+.blue {
+    color: #61d2d6;
+    border-color: #61d2d6
+}
+
+.bg-blue {
+    background-color: #61d2d6;
+}
+
+.red {
+    color: #ea3556;
+    border-color: #ea3556
+}
+
+.bg-red {
+    background-color: #ea3556;
+}
+
+.b--red {
+    border-color: #ea3556
+}
